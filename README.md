@@ -30,6 +30,6 @@ headers = {
 	"X-RapidAPI-Host": "open-ai21.p.rapidapi.com"
 }
 
-response = requests.post(url, json=payload, headers=headers)</pre>
+response = requests.post(url, json=payload, headers=headers)
 
-print(response.json())
+print(response.json())</pre>
