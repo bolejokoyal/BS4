@@ -1,7 +1,7 @@
 # BS4
 <p>import requests as r <br/>
 from bs4 import BeautifulSoup <br/>
-response = r.get("https://bolejokoyal.github.io/eh.github.io/")<br/>
+response = r.get("https://bolejokoyal.github.io/dsa.github.io/")<br/>
 soup = BeautifulSoup(response.text, 'html.parser')<br/>
 print(soup.find("pre", id='keywords').text)
 </p>
